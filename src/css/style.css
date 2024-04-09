@@ -59,6 +59,10 @@ main {
     margin-top: 8PX;
 }
 
+.card .titulo-publicacao a:hover {
+    color: var(--Yellow);
+}
+
 .card .publicacao {
     color: var(--Grey);
     padding: 10px 0px; 
