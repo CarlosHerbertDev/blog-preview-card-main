@@ -1,0 +1,81 @@
+@font-face {
+    font-family: 'Figtre-Extrabold';
+    src: url(../fonts/static/Figtree-ExtraBold.ttf);
+}
+@font-face {
+    font-family: 'Figtre-Semibold';
+    src: url(../fonts/static/Figtree-SemiBold.ttf);
+}
+
+body {
+    background-color:  var(--Yellow);
+    font-family:'Figtre-Semibold', Arial, Helvetica, sans-serif; 
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card {
+    padding: 20px;
+    max-width: 380px;
+    border: 1px solid var(--Black);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: var(--White);
+    box-shadow: 10px 10px 0px black;
+}
+
+
+.card .learning, .titulo-publicacao, .nome-autor {
+    font-family: 'Figtre-Extrabold', Arial, Helvetica, sans-serif;
+}
+
+.card .image-card {
+    border-radius: 10px;
+}
+
+.card .learning {
+    font-size: 14px;
+    margin-top: 15px;
+    padding: 5px 12px;
+    border-radius: 5px;
+    align-self: flex-start;
+    border: 1px solid var(--Yellow);
+    background-color: var(--Yellow);
+}
+
+.card .data {
+    margin-top: 5PX;
+    font-size: 14px;
+}
+
+.card .titulo-publicacao {
+    font-size: 24px;
+    margin-top: 8PX;
+}
+
+.card .publicacao {
+    color: var(--Grey);
+    padding: 10px 0px; 
+    line-height: 23px;
+}
+
+.card .link-autor {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.card .link-autor .perfil-autor {
+    height: 30px;
+    width: 30px;
+}
+
+.card .link-autor .nome-autor {
+    font-size: 14px;
+}
