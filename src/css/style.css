@@ -27,7 +27,12 @@ main {
     flex-direction: column;
     gap: 10px;
     background-color: var(--White);
-    box-shadow: 10px 10px 0px black;
+    box-shadow: 6px 6px 0px black;
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 13px 13px 0px black;
 }
 
 
@@ -81,5 +86,5 @@ main {
 }
 
 .card .link-autor .nome-autor {
-    font-size: 14px;
+    font-size: 14px;
 }
